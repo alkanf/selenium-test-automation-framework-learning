@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-02-14T19:50:23 GMT+03:00" name="Default suite" finished-at="2026-02-14T19:50:35 GMT+03:00" duration-ms="11556">
+    <groups>
+    </groups>
+    <test started-at="2026-02-14T19:50:23 GMT+03:00" name="Default test" finished-at="2026-02-14T19:50:35 GMT+03:00" duration-ms="11556">
+      <class name="day8.LoginPageTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:day8.LoginPageTest@1fa268de]" started-at="2026-02-14T19:50:23 GMT+03:00" name="setup" finished-at="2026-02-14T19:50:33 GMT+03:00" duration-ms="9679" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="login()[pri:0, instance:day8.LoginPageTest@1fa268de]" started-at="2026-02-14T19:50:33 GMT+03:00" name="login" finished-at="2026-02-14T19:50:34 GMT+03:00" duration-ms="1569" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="exit()[pri:0, instance:day8.LoginPageTest@1fa268de]" started-at="2026-02-14T19:50:34 GMT+03:00" name="exit" finished-at="2026-02-14T19:50:35 GMT+03:00" duration-ms="205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exit -->
+      </class> <!-- day8.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
