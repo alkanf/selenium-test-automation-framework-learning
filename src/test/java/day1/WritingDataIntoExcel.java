@@ -22,7 +22,7 @@ row1.createCell(2).setCellValue("YES");
 
 XSSFRow row2 = sheet1.createRow(1);
 row2.createCell(0).setCellValue("Eve");
-row2.createCell(1).setCellValue("15");
+row2.createCell(1).setCellValue("13");
 row2.createCell(2).setCellValue("NO");
 
 XSSFRow row3 = sheet1.createRow(2);
@@ -30,7 +30,7 @@ row3.createCell(0).setCellValue("Ethan");
 row3.createCell(1).setCellValue("32");
 row3.createCell(2).setCellValue("YES");
 
-FileOutputStream file = new FileOutputStream("C:\\Users\\alkan\\Selenium_Frameworks\\SeleniumFrameworks\\testdata\\data.xlsx"); 
+FileOutputStream file = new FileOutputStream("C:\\Users\\alkan\\Selenium_Frameworks\\LearningSeleniumFramework\\testdata\\data.xlsx"); 
 workbook.write(file);
 
 workbook.close();

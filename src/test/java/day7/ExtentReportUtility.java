@@ -11,14 +11,17 @@ import com.aventstack.extentreports.reporter.ExtentSparkReporter;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 
 public class ExtentReportUtility implements ITestListener
-{
+{static {
+    System.setProperty("user.language", "en");
+    System.setProperty("user.country", "US");
+    java.util.Locale.setDefault(java.util.Locale.ENGLISH);
+}
 	public ExtentSparkReporter sparkReporter;  // UI of the report
 	public ExtentReports extent;  //populate common info on the report
 	public ExtentTest test; // creating test case entries in the report and update status of the test methods
 
 	public void onStart(ITestContext context) {
-			
-		sparkReporter=new ExtentSparkReporter("C:\\Users\\alkan\\Selenium_Frameworks\\SeleniumFrameworks\\testdata\\reports\\report.html");//specify location of the report
+		sparkReporter = new ExtentSparkReporter("C:\\Users\\alkan\\Selenium_Frameworks\\LearningSeleniumFramework\\testdata\\reports\\report.html");//specify location of the report
 		
 		sparkReporter.config().setDocumentTitle("Automation Report"); // TiTle of report
 		sparkReporter.config().setReportName("Functional Testing"); // name of the report

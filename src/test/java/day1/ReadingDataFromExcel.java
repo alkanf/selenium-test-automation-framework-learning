@@ -12,9 +12,9 @@ public class ReadingDataFromExcel {
 //Excel file = Workbook → Sheets → Rows → Collumns
 	public static void main(String[] args) throws IOException {
 //Opening xlxss, workbook and sheet
-FileInputStream file = new FileInputStream("C:\\Users\\alkan\\Selenium_Frameworks\\SeleniumFrameworks\\testdata\\data.xlsx"); //hardcoded
+FileInputStream file = new FileInputStream("C:\\Users\\alkan\\Selenium_Frameworks\\LearningSeleniumFramework\\testdata\\data.xlsx"); //hardcoded
 XSSFWorkbook workbook = new XSSFWorkbook(file);
-XSSFSheet sheet = workbook.getSheet("Sheet1");
+XSSFSheet sheet = workbook.getSheet("Data");
 
 //Finding length // Cant retrieve cells, directly rows -> cells 
 int totalRows = sheet.getLastRowNum(); //Length of rows = Number of rows

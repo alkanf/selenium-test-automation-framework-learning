@@ -32,7 +32,7 @@ public class WritingDynamicDataIntoExcel {
 		}
 
 		FileOutputStream file = new FileOutputStream(
-				"C:\\Users\\alkan\\Selenium_Frameworks\\SeleniumFrameworks\\testdata\\dynamicData.xlsx");
+				"C:\\Users\\alkan\\Selenium_Frameworks\\LearningSeleniumFramework\\testdata\\dynamicData.xlsx");
 		workbook.write(file);
 
 		workbook.close();

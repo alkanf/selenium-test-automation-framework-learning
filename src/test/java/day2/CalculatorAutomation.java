@@ -17,7 +17,7 @@ public class CalculatorAutomation {
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.get("https://testsheepnz.github.io/BasicCalculator.html");
 //can create variable for path 
-		String calculatorData = "C:\\Users\\alkan\\Selenium_Frameworks\\SeleniumFrameworks\\testdata\\caldata.xlsx";
+		String calculatorData = "C:\\Users\\alkan\\Selenium_Frameworks\\LearningSeleniumFramework\\testdata\\caldata.xlsx";
 //for defining loop multiple tests, we need to learn how many rows
 		int allRows = ExcelUtils.getRowCount(calculatorData, "Sheet2");
 //get cell with method in row(i) loop, start from 1 as we dont need header as test case

@@ -17,7 +17,7 @@ WebDriver driver = new ChromeDriver();
 driver.manage().window().maximize();
 driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 driver.get("https://www.cit.com/cit-bank/resources/calculators/certificate-of-deposit-calculator");
-String pathFile = "C:\\Users\\alkan\\Selenium_Frameworks\\SeleniumFrameworks\\testdata\\caldata2.xlsx";
+String pathFile = "C:\\Users\\alkan\\Selenium_Frameworks\\LearningSeleniumFramework\\testdata\\caldata2.xlsx";
 driver.findElement(By.id("onetrust-accept-btn-handler")).click(); //Accept Cookies 
 //all row count 
 int allRows = ExcelUtils.getRowCount(pathFile, "Sheet1");
